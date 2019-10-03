@@ -1,6 +1,6 @@
 #pragma once
 
-// Acknowledgement of original coders for Optimized 64bit C - Christoph Dobraunig and Martin Schläffer
+// Acknowledgement of original coders for Optimized 64bit C - Christoph Dobraunig and Martin SchlÃ¤ffer
 // Updated and ported to C++/CLI - Dustin J. Sparks
 // NOTE: BYTE ARRAY/INTEGER CONVERSIONS ARE BIG ENDIAN
 
@@ -13,8 +13,6 @@ using namespace System;
 using AsconManaged::ASCON_Core;
 namespace AsconManaged
 {
-
-
 #define EXT_BYTE64(x, n) ((Byte)((UInt64)(x) >> (8 * (7 - (n)))))
 #define INS_BYTE64(x, n) ((UInt64)(x) << (8 * (7 - (n))))
 #define ROTR64(x, n) (((x) >> (n)) | ((x) << (64 - (n))))
@@ -87,8 +85,6 @@ namespace AsconManaged
 #define IV_80pq ((UInt64)0xA0400c06 << 32)
 #define IV_128 ((UInt64)0x80400c06 << 32)
 #define IV_128a ((UInt64)0x80800c08 << 32)
-#define IV_128hash ((UInt64)0x80800c08 << 32)
-#define IV_128xof ((UInt64)0x80800c08 << 32)
 
 	// 80pq AEAD==============================================================================================================================
 	void ASCON_80pq::encrypt80pq_detached(
