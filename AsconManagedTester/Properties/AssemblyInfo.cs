@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("AsconManagedTester")]
-[assembly: AssemblyDescription("A C++/CLI Implementation of the ASCON AEAD Encryption Scheme (v1.2) from the CAESAR and NIST Lightweight Crypto competitions.")];")]
+[assembly: AssemblyDescription("A C++/CLI Implementation of the ASCON AEAD Encryption Scheme (v1.2) from the CAESAR and NIST Lightweight Crypto competitions.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("AsconManagedTester")]
